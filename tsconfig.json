@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "incremental": false,
+        "moduleResolution": "node",
+        "module": "ESNext",
+        "removeComments": true,
+        "sourceMap": true,
+        "target": "ES2021",
+        "skipLibCheck": true,
+        "lib": [
+            "ESNEXT",
+            "DOM"
+        ],
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "noUnusedParameters": true,
+        "noUnusedLocals": true,
+        "importHelpers": true,
+        "strict": true,
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "outDir": "dist"
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
