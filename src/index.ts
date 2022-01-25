@@ -74,7 +74,7 @@ const getClusterPlagiarismScore = (cluster: Array<[number, number]>): number => 
     }
 }
 
-export const getWordTokens = (text: string): string[] => {
+const getWordTokens = (text: string): string[] => {
     return text.replace(/[^a-z0-9\s]/gi, '').split(/\s+/g)
 }
 
